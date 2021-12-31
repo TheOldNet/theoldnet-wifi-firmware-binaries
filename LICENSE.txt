@@ -1,0 +1,3 @@
+theoldnet_serial_wifi_ethernet.bin firmware is based on https://github.com/martin-ger/esp_slip_router MIT License
+
+theoldnet_serial_wifi_modem.bin firmware is based on https://github.com/ssshake/vintage-computer-wifi-modem GPLv3 
