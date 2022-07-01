@@ -28,13 +28,13 @@ Dave's World article on SLIP in DOS: https://mcmackins.org/stories/dos-slip.html
 
 ## HOW TO FLASH
 
-SLIP: 
-
-- Download this repository
+- Download this repository buy checking it out with Git of by downloading this [ZIP](https://github.com/TheOldNet/theoldnet-wifi-firmware-binaries/archive/refs/heads/master.zip)
 - Run ESPHome-Flasher-1.3.0-Windows-x64.exe
 - Plug your device into your computer over USB
 - In ESPHome Flasher choose your devices COM port
-- Then choose the firmware file for SLIP
+- Choose the firmware file of choice.
+    -- for SLIP firmware choose *theoldnet_serial_wifi_ethernet.bin*
+    -- for Hayes Modem & PPP firmware choose *theoldnet_serial_wifi_ppp.bin*
 - Then click Flash ESP
 
 ![](https://raw.githubusercontent.com/TheOldNet/theoldnet-wifi-firmware-binaries/master/flashing.jpg)
