@@ -28,6 +28,17 @@ Dave's World article on SLIP in DOS: https://mcmackins.org/stories/dos-slip.html
 
 ##HOW TO FLASH
 
+SLIP: 
+
+- Download this repository
+- Run ESPHome-Flasher-1.3.0-Windows-x64.exe
+- Plug your device into your computer over USB
+- In ESPHome Flasher choose your devices COM port
+- Then choose the firmware file for SLIP
+- Then click Flash ESP
+
+![](https://raw.githubusercontent.com/TheOldNet/theoldnet-wifi-firmware-binaries/master/flashing.jpg)
+
 ##WHICH FIRMWARE
 
 ##HOW TO CONFIGURE MODEM FIRMWARE
