@@ -26,7 +26,7 @@ EtherSL via the Crynwr DOS Software Packet Drivers: http://www.ibiblio.org/pub/m
 Dave's World article on SLIP in DOS: https://mcmackins.org/stories/dos-slip.html
 
 
-##HOW TO FLASH
+## HOW TO FLASH
 
 SLIP: 
 
@@ -39,19 +39,15 @@ SLIP:
 
 ![](https://raw.githubusercontent.com/TheOldNet/theoldnet-wifi-firmware-binaries/master/flashing.jpg)
 
-##WHICH FIRMWARE
+## WHICH FIRMWARE
 
-##HOW TO CONFIGURE MODEM FIRMWARE
+## HOW TO CONFIGURE MODEM FIRMWARE
 
-##HOW TO CONFIGURE ETHERNET FIRMWARE
+## HOW TO CONFIGURE ETHERNET FIRMWARE
 
 Once connected to telnet press ALT + E and then ALT + N
 
-##KNOWN ISSUES
-
-- DNS does not work at all for ethernet firmware in DOS
-
-##WHAT YOU NEED TO KNOW WHEN SWITCHING FIRMWARE
+## WHAT YOU NEED TO KNOW WHEN SWITCHING FIRMWARE
 
 - You will loose all configuration settings such as your wifi SSID and PASSWORD as well as your preferred bit rate
 - The bit rate will be reset to the default for the firmware. For the modem firmware it's 300 bps. For the ethernet firmware it's 115200 bps
