@@ -33,17 +33,31 @@ Dave's World article on SLIP in DOS: https://mcmackins.org/stories/dos-slip.html
 - Plug your device into your computer over USB
 - In ESPHome Flasher choose your devices COM port
 - Choose the firmware file of choice.
-1. for SLIP firmware choose *theoldnet_serial_wifi_ethernet.bin*
-2. for Hayes Modem & PPP firmware choose *theoldnet_serial_wifi_ppp.bin*
+1. for SLIP firmware choose **theoldnet_serial_wifi_ethernet.bin**
+2. for Hayes Modem & PPP firmware choose **theoldnet_serial_wifi_ppp.bin**
 - Then click Flash ESP
 
 ![](https://raw.githubusercontent.com/TheOldNet/theoldnet-wifi-firmware-binaries/master/flashing.jpg)
 
 ## WHICH FIRMWARE
 
+**Hayes Modem PPP**
+
+This is the defaul firmware that ships with The Old Net Serial to WIFI Adapter. It emulates a Hayes modem which is capable of connecting to BBS's hosted on the internet. It is also capable of acting as an ISP so that you can use Windows or Macintosh Dial Up Networking to get a full fledge internet connection on your vintage computer.
+
+**SLIP**
+
+The SLIP firmware acts as an ethernet adapter over serial. It behaves like a network card, not a modem. Both firmwares are capable giving your vintage computer a TCP/IP network connection. However because this firmware behaves like an ethernet adapter, it will not work with software that expects to be talking to a modem (terminal programs, dialup networking).
+
+There are different reasons to use SLIP over PPP which was depend on your situation. I would recommend starting with the Hayes PPP firmware and then using SLIP where PPP is not available for your situation.
+
 ## HOW TO CONFIGURE MODEM FIRMWARE
 
+Soon, sorry.
+
 ## HOW TO CONFIGURE ETHERNET FIRMWARE
+
+Soon, sorry.
 
 Once connected to telnet press ALT + E and then ALT + N
 
@@ -58,7 +72,7 @@ Once connected to telnet press ALT + E and then ALT + N
 
 
 -------------------
-
+Documentation from the SLIP and Modem repositories are below. This is a snapshot and may be out of date. 
 
 -------------------
 
