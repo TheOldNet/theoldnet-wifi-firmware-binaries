@@ -1,3 +1,12 @@
+## Current Firmware for V4 and V6 modems
+
+If you need to manually reflash your device, download this zip file. It contains scripts, firmware and instructions for version 4 and 6 of the WIFI modem (version 5 never saw the light of day if you're wondering about the gap). Do not use the files in this repo to flash, they are outdated but people tend to end up here so that's why I'm updating the readme. 
+
+[Firmware Flash Tool](https://theoldnet.com/downloads/theoldnet-customer-flash-tool.zip)
+
+
+### Older Stuff
+
 I created this binaries repo because the end to end solution for modem and ethernet over serial comes from many different sources.
 
 This package is designed to make it easy on the end user to grab one zip file and be able to do it all. 
